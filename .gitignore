@@ -1,0 +1,34 @@
+﻿# Compiled files
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# Logs and data
+logs/
+*.log
+data/*.bin
+data/snapshots/*
+
+# Configurations with secrets
+config/*.key
+config/*.secret
+config/private/
+config/credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+temp/
+tmp/
+build/

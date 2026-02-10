@@ -1,0 +1,35 @@
+﻿{
+  "exchanges": [
+    {
+      "name": "binance",
+      "enabled": true,
+      "tier": 1,
+      "spot": true,
+      "futures": true,
+      "maker_fee": 0.0000,
+      "taker_fee": 0.0010,
+      "withdrawal_fee_btc": 0.0004
+    },
+    {
+      "name": "okx",
+      "enabled": true,
+      "tier": 1,
+      "spot": true,
+      "futures": true,
+      "maker_fee": 0.0008,
+      "taker_fee": 0.0010,
+      "withdrawal_fee_btc": 0.0002
+    },
+    {
+      "name": "bybit",
+      "enabled": true,
+      "tier": 1,
+      "spot": true,
+      "futures": true,
+      "maker_fee": 0.0000,
+      "taker_fee": 0.0010,
+      "withdrawal_fee_btc": 0.0001,
+      "hidden_liquidity_multiplier": 1.2
+    }
+  ]
+}

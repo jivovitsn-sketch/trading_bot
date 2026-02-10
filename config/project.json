@@ -1,0 +1,25 @@
+﻿{
+  "name": "OdinHFT",
+  "version": "0.1.0-alpha",
+  "description": "High Frequency Trading Bot for 7+ exchanges",
+  "author": "jivovitsn-sketch",
+  "platform": "windows_amd64",
+  "min_odin_version": "dev-2024-12",
+  "default_allocator": "arena",
+  "trading": {
+    "exchanges": ["binance", "okx", "bybit", "bitget", "kucoin", "gateio", "mexc"],
+    "min_profit_percent": 0.0005,
+    "risk_tiers": ["black_swan", "statistical", "funding"]
+  },
+  "real_constants": {
+    "binance_withdrawal_fee_btc": 0.0004,
+    "okx_funding_times_utc": ["00:00", "08:00", "16:00"],
+    "bybit_hidden_liquidity_correction": 1.2,
+    "maker_fees": {
+      "binance": 0.0000,
+      "okx": 0.0008,
+      "bybit": 0.0000
+    }
+  },
+  "created": "02/10/2026 19:58:25"
+}
