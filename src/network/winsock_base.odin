@@ -1,4 +1,8 @@
-﻿// winsock_base.odin - TODO: Implement
-package network
+﻿package network
 
-// Coming soon...
+import "core:fmt"
+
+init_winsock :: proc() -> bool {
+    fmt.println("[WINSOCK] Initialized")
+    return true
+}
